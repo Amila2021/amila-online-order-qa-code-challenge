@@ -1,0 +1,21 @@
+{
+  "name": "amilatest01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amila",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^7.0.3",
+    "cypress": "^8.0.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/online-shopping-exercise/OnlineOrder/"
+  }
+}

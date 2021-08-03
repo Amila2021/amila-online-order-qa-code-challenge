@@ -1,0 +1,11 @@
+--------- WooliesX QA Code Challenge ----------------
+
+Used language and frameword - Cypress with Cucumber  
+
+--------- Assumptions and constraints 
+1. Online order user journey automated for an already registered user 
+2. Registration automation scripts has been implemented in a seperate feature file
+3. During registration, address was only validated to have a valid a post code. Thus, only validated that scenario
+4. The website elements will not be changed during the implementation on this code and until the code get evaluated 
+5. All current get element methods are based on the website code available on 03/08/2021 12:00
+  
